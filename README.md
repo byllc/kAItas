@@ -30,3 +30,7 @@ Navigate to the directory for a specfic kata. We suggest doing them in order the
 cd 001_tokenizer 
 python -m unittest tests.py
 ``` 
+
+## The Katas 
+| 1 | [Tokenization](001_tokenization/README.md) | 
+| 2 | [Math](002_math/README.md) | 
