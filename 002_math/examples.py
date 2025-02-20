@@ -19,3 +19,9 @@ def multiply_matrices(matrix1, matrix2):
                 result[i][j] += matrix1[i][k] * matrix2[k][j]
 
     return result
+
+def scalar_multiply(scalar, array):
+    return [scalar * element for element in array]
+
+def dot_product(array1, array2):
+    return sum(a * b for a, b in zip(array1, array2))   

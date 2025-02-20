@@ -11,11 +11,11 @@ Write a function called `string_to_bin` that converts a string to its binary rep
 ### Why? 
 LLM's are built on a foundation of linear algebra. Fundamentally there is a lot of simple arithmetic and matrix multiplication. For this we need to have an numerical encoding of our text. We'll talk more about this in a later Kata. 
 
-## Task: Write a `string_to_word_tokens` Function
+### Task: Write a `string_to_word_tokens` Function
 
-###What? 
+### What? 
 Tokenize a string of text into individual words. Tokens should be case sensitive. 
 
-###Why? 
+### Why? 
 In a real model Tokens can be full words, partial words our multiple words and characters and are the fundamental building block of an LLM. 
 
