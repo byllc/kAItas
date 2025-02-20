@@ -24,7 +24,7 @@ Then run with:
 docker run -v .:/home/kaitas -it kaitas
 ``` 
 
-Navigate to the directory for a specfic kata. We suggest doing them in order the first time since it build ups an understanding of LLM's from scratch. 
+Navigate to the directory for a specfic kata. I suggest doing them in order the first time since it builds up an understanding of Machine Learning and basic concepts from scratch. 
 
 ```sh 
 cd 001_tokenizer 
