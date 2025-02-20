@@ -36,3 +36,12 @@ python -m unittest tests.py
 |------|--------------------------------------------|
 | 1 | [Tokenization](001_tokenization/README.md) | 
 | 2 | [Math](002_math/README.md)                 | 
+| 3  | TBD |
+| 4  | TBD |
+| 5 | [Decision Trees](005_decision_trees/README.md)|
+
+
+## Create a new Kata
+```bash 
+./bin/create_task.sh {{name_of_task_folder}}
+```
