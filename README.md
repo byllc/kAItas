@@ -32,5 +32,7 @@ python -m unittest tests.py
 ``` 
 
 ## The Katas 
+| #    | Kata                                       |
+|------|--------------------------------------------|
 | 1 | [Tokenization](001_tokenization/README.md) | 
-| 2 | [Math](002_math/README.md) | 
+| 2 | [Math](002_math/README.md)                 | 
