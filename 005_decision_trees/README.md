@@ -28,6 +28,7 @@ A decision tree is a very basic example of a machine learning algorithm. It is f
 ## Example of a Simple Decision Tree
 
 Here's a simple example of a decision tree for a binary classification problem:
+```
             [Root Node]
                /   \
           Yes       No
@@ -36,7 +37,7 @@ Here's a simple example of a decision tree for a binary classification problem:
     /    \             (Class B)
  Yes      No
 /           \
-
+```
 
 In this example:
 - The root node represents the entire dataset and the first decision point.
