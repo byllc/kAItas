@@ -31,6 +31,8 @@ cd 001_tokenizer
 python -m unittest tests.py
 ``` 
 
+You'll find each task stubbed out with a working example in the filed caled examples.py. The tests should pass. To try the Kata, delete or comment out the return statment in the task you would like to try. See the tests fail, now make the tests pass on your own. 
+
 ## The Katas 
 | #    | Kata                                       |
 |------|--------------------------------------------|
