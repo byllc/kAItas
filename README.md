@@ -24,11 +24,11 @@ Then run with:
 docker run -v .:/home/kaitas -it kaitas
 ``` 
 
-Navigate to the directory for a specfic kata. I suggest doing them in order the first time since it builds up an understanding of Machine Learning and basic concepts from scratch. 
+Navigate to the directory for a specfic kata. I suggest doing them in order the first time since it builds up an understanding of Machine Learning and basic concepts from scratch. Later Tasks are much more difficult. 
 
 ```sh 
 cd 001_tokenizer 
-python -m unittest tests.py
+./tests.py
 ``` 
 
 You'll find each task stubbed out with a working example in the filed caled examples.py. The tests should pass. To try the Kata, delete or comment out the return statment in the task you would like to try. See the tests fail, now make the tests pass on your own. 

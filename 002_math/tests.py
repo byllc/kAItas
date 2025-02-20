@@ -1,8 +1,7 @@
+#!/usr/bin/env python3
+
 import unittest
 from run import multiply_matrices, scalar_multiply, dot_product
-
-# FILE: 002_math/test_tests.py
-
 
 class TestMultiplyMatrices(unittest.TestCase):
 

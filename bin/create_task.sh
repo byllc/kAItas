@@ -29,4 +29,15 @@ touch "$FOLDER_NAME/README.md"
 touch "$FOLDER_NAME/tests.py"
 touch "$FOLDER_NAME/examples.py"
 
+# Add the shebang line to the run.py file
+echo "#!/usr/bin/env python3" > "$FOLDER_NAME/run.py"
+# Add the shebang line to the tests.py file
+echo "#!/usr/bin/env python3" > "$FOLDER_NAME/tests.py"
+echo "import unittest" >> "$FOLDER_NAME/tests.py"
+
+# make files executable 
+chmod +x "$FOLDER_NAME/run.py"
+chmod +x "$FOLDER_NAME/tests.py"
+
+
 echo "Project folder '$FOLDER_NAME' created with run.py, README.md, tests.py, and examples.py."
